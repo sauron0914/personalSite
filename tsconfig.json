@@ -1,4 +1,5 @@
 {
+  "extends": "./paths",
   "compilerOptions": {
     "target": "es5",
     "lib": [
@@ -17,9 +18,10 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
-    "jsx": "react"
+    "jsx": "preserve"
   },
   "include": [
-    "src"
+    "src",
+    "typing.d.ts"
   ]
 }

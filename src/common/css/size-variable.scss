@@ -1,0 +1,16 @@
+$base-size: 1px;
+$base-rem: 1rem;
+
+@function size($val: 1) {
+  @return $val * $base-size;
+}
+
+@function remSize($val: 1) {
+  @return $val * (1/25) * $base-rem;
+}
+
+$margin: size(20);
+$padding: size(25);
+$border-radius: size(3);
+
+$min-width-body: size(1260);

@@ -28,7 +28,7 @@ npm install --registry=http://registry.npm.taobao.org --sass_binary_path=http://
 cp src/config/config.js.sample src/config/config.js
 
 # serve with hot reload at localhost:3000
-# 热重载开发，http://localhost:3000
+#   热重载开发，http://localhost:3000
 npm start
 
 # build static file for production with minification
